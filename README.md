@@ -113,7 +113,7 @@ matplotlib>=3.7
 
 ```python
 from google.colab import files
-uploaded = files.upload()  # choose dsdExcelnew.csv
+uploaded = files.upload()  
 ```
 
 4. Paste your **training** code (full or fast mode).
@@ -272,3 +272,21 @@ MIT
 > **User-friendly integration for apartment price prediction.**
 > The project includes an interactive CLI for end-users to enter apartment attributes and receive an estimated price in RUB. Inputs are validated (including Moscow-specific latitude/longitude ranges) to ensure robust predictions.
 
+
+📝 PS — Important Note
+
+This model is incomplete by design. While it uses key structural and locational features (area, floor, walls material, coordinates, etc.), the real price of apartments in Moscow is strongly influenced by many additional factors that are not included in the dataset, such as:
+
+Distance to the nearest metro station
+
+Availability of schools, kindergartens, and healthcare facilities
+
+Traffic congestion and transport accessibility
+
+Level of green areas and environmental conditions
+
+District popularity and prestige (e.g., the closer to the Kremlin or city center, the more expensive)
+
+Market trends and seasonality
+
+Therefore, predictions should be seen as approximate estimates, not as exact market valuations.
