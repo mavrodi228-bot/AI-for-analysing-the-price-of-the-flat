@@ -277,16 +277,16 @@ MIT
 
 This model is incomplete by design. While it uses key structural and locational features (area, floor, walls material, coordinates, etc.), the real price of apartments in Moscow is strongly influenced by many additional factors that are not included in the dataset, such as:
 
-Distance to the nearest metro station
+  *Distance to the nearest metro station*
 
-Availability of schools, kindergartens, and healthcare facilities
+  *Availability of schools, kindergartens, and healthcare facilities*
 
-Traffic congestion and transport accessibility
+  *Traffic congestion and transport accessibility*
 
-Level of green areas and environmental conditions
+  *Level of green areas and environmental conditions*
 
-District popularity and prestige (e.g., the closer to the Kremlin or city center, the more expensive)
+  *District popularity and prestige (e.g., the closer to the Kremlin or city center, the more expensive)*
 
-Market trends and seasonality
+  *Market trends and seasonality*
 
 Therefore, predictions should be seen as approximate estimates, not as exact market valuations.
